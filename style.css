@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #FFCCCC;
+    justify-content: space-between;
+    position: sticky;
+    min-height: 60px;
+    padding: 5px;
+}
+
+.encabezado__lista{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.encabezado__lista__elemento{
+    display: inline-block;
+    margin:  20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+body{
+    background-image: url("./images/background_color.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* INDEX | HOME */
+
+.contenedor{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor .texto h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.contenedor .texto h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 20px;
+    color: #585858;
+}
+
+.contenedor .texto p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.contenedor .texto a{
+    padding: 18px 40px;
+    margin-left: 200px;
+    border-radius: 35px;
+    font-size: 30px;
+    background-color: #9A9FFF;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contenedor .imagen img{
+    width: 600px;
+}
+
+.logo_yoga{
+    width: 50px;
+}
+
+*
+/* FOOTER  */
+
+.piepagina{
+    width: 100%;
+    background-color: #FFCCCC;
+}
+
+.contenedor_piepagina{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 15px 0px;
+}
+
+.elemento_piepagina{
+    margin: auto;
+}
+
+.piepagina .contenedor_piepagina .elemento_piepagina .social_piepagina a{
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 10 px;
+}
+
+.social_logos{
+    width: 30px;
+}
+
+/* CLASES*/
+
+.cover_clases{
+    margin: 30px;
+}
+
+.introduccion_clases{
+    margin-bottom: 20px;
+}
+
+.cover_clases .introduccion_clases h2{
+    font-size: 50px;
+}
+
+.cover_clases .introduccion_clases p{
+    font-size: 30px;
+}
+
+.seccion_clases{
+    display: flex;
+    margin-top: 100px;
+}
+
+.imagenes_clases{
+    width: 450px;
+    min-height: 300px;
+    box-shadow: 7px 13px 35px rgb(36, 36, 36);
+    /* margin-right: 10px; */
+}
+
+.titulos_clases{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.descripcion_clases{
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+/* CONTACTANOS | FORMULARIO */
+
+.formulario{
+    width:  400px;
+    background-color: #FFCCCC;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    box-shadow: 7px 13px 35px rgb(36, 36, 36);
+}
+
+.formulario p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 14px;
+    color: #FFFFFF;
+}
+
+.formulario__campos{
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: solid 2px #9A9FFF;
+}
+
+.formulario__genero{
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center
+}
+
+.generos_texto{
+    color: white;
+}
+
+.formulario__botones{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    background: #9A9FFF;
+    border: none;
+    color: white;
+}
+
+
+/* MERCANCIA */
+
+.tabla_mercancia{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 30px;
+    min-width: 400px;
+    background-color: #FFCCCC;
+    padding: 30px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    box-shadow: 7px 13px 35px rgb(36, 36, 36);
+}
+
+.imagenes_mercancia{
+    width: 300px;
+    height: 200px;
+}
+
+.tabla_mercancia thead tr{
+    background-color: #FFCCCC;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tabla_mercancia th,
+.tabla_mercancia td{
+    padding: 12px 15px;
+}
+
+.tabla_mercancia tbody tr{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.096);
+    font-size: 20px;
+}
+
+.introduccion_mercancia h2{
+    font-size: 50px;
+}
+
+.introduccion_mercancia p{
+    font-size: 30px;
+}
+
+.contenedor_tabla_mercancia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* QUIENES SOMOS */
+
+.video_presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.presentacion h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.presentacion p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* RESPONSIVO */
+
+@media screen and (max-width:1080px){
+    .contenedor .texto a{
+        padding: 18px 40px;
+        margin-left: 100px;
+        border-radius: 35px;
+        font-size: 30px;
+        background-color: #9A9FFF;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width:990px){
+    .contenedor .texto a{
+        padding: 18px 40px;
+        margin-left: 50px;
+        border-radius: 35px;
+        font-size: 30px;
+        background-color: #9A9FFF;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .contenedor .imagen img{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width:932px){
+
+    .contenedor .imagen img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:902px){
+
+    .contenedor .texto h1{
+        font-size: 50px;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+    
+    .contenedor .texto h2{
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: 20px;
+        color: #585858;
+    }
+
+    .contenedor .texto a{
+        padding: 18px 40px;
+        margin-left: 50px;
+        border-radius: 35px;
+        font-size: 30px;
+        background-color: #9A9FFF;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .contenedor .imagen img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:843px){
+    
+    .contenedor .texto h2{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 20px;
+        color: #585858;
+    }
+}
+@media screen and (max-width:801px){
+
+    .contenedor .texto a{
+        padding: 18px 30px;
+        margin-left: 30px;
+        border-radius: 35px;
+        font-size: 30px;
+        background-color: #9A9FFF;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .contenedor .texto p{
+        font-size: 25px;
+    }
+
+    .contenedor .imagen img{
+        display: none;
+    }
+
+    .contenedor_piepagina{
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        padding: 15px 0px;
+    }
+
+}
+
+@media (max-width:664px){
+    .encabezado__lista__elemento{
+        flex-direction: column;
+        margin:  20px;
+    }
+    
+    nav ul li a{
+        color: black;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .contenedor_piepagina{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+@media (max-width:403px){
+    .encabezado{
+        position: absolute;
+        width: 200%;
+    }
+    body{
+        position: relative;
+        padding-bottom: 130%;
+    }
+
+    .piepagina{
+        position: absolute;
+        bottom: 0;
+        width: 200%;
+    }
+
+    .contenedor_tabla_mercancia{
+        padding: 50px;
+    }
+}
