@@ -30,6 +30,11 @@ nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
+    transition: all 1s;
+}
+
+nav ul li a:hover{
+    transform: scale(1);
 }
 
 body{
@@ -79,6 +84,11 @@ body{
     background-color: #9A9FFF;
     color: #FFFFFF;
     text-decoration: none;
+    transition: all 1;
+}
+
+.contenedor .texto a:hover{
+    transform: scale(2);
 }
 
 .contenedor .imagen img{
