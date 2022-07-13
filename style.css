@@ -24,17 +24,25 @@ header{
 .encabezado__lista__elemento{
     display: inline-block;
     margin:  20px;
+    transition: all 1s;
+}
+
+.encabezado__lista__elemento:hover{
+    transform: scale(1.5);
+}
+
+.logo_titulo{
+    transition: all 1s;
+}
+
+.logo_titulo:hover{
+    transform: scale(1.5);
 }
 
 nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    transition: all 1s;
-}
-
-nav ul li a:hover{
-    transform: scale(1);
 }
 
 body{
@@ -84,7 +92,7 @@ body{
     background-color: #9A9FFF;
     color: #FFFFFF;
     text-decoration: none;
-    transition: all 1;
+    transition: all 1s;
 }
 
 .contenedor .texto a:hover{
@@ -94,6 +102,19 @@ body{
 
 .contenedor .imagen img{
     width: 600px;
+    animation: move-up 4s infinite;
+}
+
+@keyframes move-up{
+    0%{
+        transform: translateY(15px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(15px);
+    }
 }
 
 .logo_yoga{
@@ -130,6 +151,11 @@ body{
 
 .social_logos{
     width: 30px;
+    transition: all 1s;
+}
+
+.social_logos:hover{
+    transform: scale(1.5);
 }
 
 /* CLASES*/
@@ -159,7 +185,24 @@ body{
     width: 450px;
     min-height: 300px;
     box-shadow: 7px 13px 35px rgb(36, 36, 36);
+    transition: all 1s;
     /* margin-right: 10px; */
+}
+
+.imagenes_clases:hover{
+    animation: move-side 1s;
+}
+
+@keyframes move-side{
+    0%{
+        transform: translateX(2px);
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(2px);
+    }
 }
 
 .titulos_clases{
