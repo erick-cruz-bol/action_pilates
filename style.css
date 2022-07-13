@@ -89,6 +89,7 @@ body{
 
 .contenedor .texto a:hover{
     transform: scale(2);
+    background-color: aquamarine;
 }
 
 .contenedor .imagen img{
