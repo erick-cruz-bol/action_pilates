@@ -7,16 +7,118 @@ html{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header{
+/* header{
     display: flex;
     background-color: #FFCCCC;
     justify-content: space-between;
     position: sticky;
     min-height: 60px;
     padding: 5px;
+} */
+
+/* INICIO DE CSS BOOTSTRAP */
+
+.full_barnav{
+    background-color: #FFCCCC;
+    position: sticky;
 }
 
-.encabezado__lista{
+.active{
+    border-bottom: solid 2px #000;
+}
+
+.navbar-brand{
+    transition: all 1s;
+}
+
+.logo_yoga{
+    width: 50px;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.5);
+}
+
+.nav-link{
+    margin-left: 40px;
+    margin-right: 10px;
+    transition: all 1s;
+}
+
+.nav-link:hover{
+    transform: scale(1.5);
+}
+
+.col-lg-6 img{
+        animation: move-up 4s infinite;
+    }
+    
+    @keyframes move-up{
+        0%{
+            transform: translateY(15px);
+        }
+        50%{
+            transform: translateY(0px);
+        }
+        100%{
+            transform: translateY(15px);
+        }
+    }
+
+    h1{
+        font-size: 60px;
+        font-weight: 700;
+        color: #38424d;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #585858;
+        margin-top: 20px;
+    }
+
+    .textoIndex{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    span {
+        display: contents;
+        color: blueviolet;
+    }
+
+    .text-info-cover a{
+        padding: 18px 40px;
+        border-radius: 30px;
+        font-size: 30px;
+        background-color: #9A9FFF;
+        color: #FFFFFF;
+        text-decoration: none;
+        transition: all 1s;
+    }
+    
+    .text-info-cover a:hover{
+        transform: scale(2);
+        background-color: aquamarine;
+    }
+
+    .titulo_clases{
+        font-size: 60px;
+        font-weight: 700;
+        color: #38424d;
+    }
+
+    .card img{
+        min-height: 200px;
+        box-shadow: 7px 13px 35px rgb(36, 36, 36);
+    }
+
+    
+/* FIN DE CSS BOOTSTRAP */
+
+/* .encabezado__lista{
     margin: 0 auto;
     width: fit-content;
 }
@@ -43,7 +145,7 @@ nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
-}
+} */
 
 body{
     background-image: url("./images/background_color.jpg");
@@ -58,7 +160,7 @@ body{
 
 /* INDEX | HOME */
 
-.contenedor{
+/* .contenedor{
     margin: auto;
     display: flex;
     align-items: center;
@@ -115,11 +217,8 @@ body{
     100%{
         transform: translateY(15px);
     }
-}
+} */
 
-.logo_yoga{
-    width: 50px;
-}
 
 *
 /* FOOTER  */
@@ -160,7 +259,7 @@ body{
 
 /* CLASES*/
 
-.cover_clases{
+/* .cover_clases{
     margin: 30px;
 }
 
@@ -186,7 +285,6 @@ body{
     min-height: 300px;
     box-shadow: 7px 13px 35px rgb(36, 36, 36);
     transition: all 1s;
-    /* margin-right: 10px; */
 }
 
 .imagenes_clases:hover{
@@ -216,7 +314,7 @@ body{
     font-size: 20px;
     text-overflow: ellipsis;
     overflow: hidden;
-}
+} */
 
 
 /* CONTACTANOS | FORMULARIO */
@@ -344,7 +442,7 @@ body{
 
 /* RESPONSIVO */
 
-@media screen and (max-width:1080px){
+/* @media screen and (max-width:1080px){
     .contenedor .texto a{
         padding: 18px 40px;
         margin-left: 100px;
@@ -491,4 +589,4 @@ body{
     .contenedor_tabla_mercancia{
         padding: 50px;
     }
-}
+} */
