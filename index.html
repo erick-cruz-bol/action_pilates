@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
     <title>pilates_site | Home</title>
 </head>
 <body> 
-	<header class="encabezado">
+	<!-- MI BARNAV -->
+<!-- 	<header class="encabezado">
 		<div class="logo_titulo">
 			<img src="./images/lotus.png" alt="yoga_icon" class="logo_yoga">
 		</div>
@@ -21,9 +23,31 @@
 				<li class="encabezado__lista__elemento"><a href="./Pages/contacto.html">Contacto</a></li>
 			</ul>
 		</nav>
-	</header>
+	</header> -->
 
-	<main>
+	<!-- NAVBAR de BOOTSTRAP -->
+	<nav class="navbar navbar-expand-lg full_barnav">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">
+			<img src="./images/lotus.png" alt="yoga_icon" class="logo_yoga">
+		  </a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav ms-auto">
+			  <a class="nav-link active" aria-current="page" href="#">Home</a>
+			  <a class="nav-link" href="./Pages/clases.html">Clases</a>
+			  <a class="nav-link" href="./Pages/mercancia.html">Mercancía</a>
+			  <a class="nav-link" href="./Pages/quienes_somos.html">Quienes somos</a>
+			  <a class="nav-link" href="./Pages/contacto.html">Contacto</a>
+			</div>
+		  </div>
+		</div>
+	  </nav>
+
+	  <!-- MI BARNAV -->
+<!-- 	<main>
 		<section class="contenedor">
 			<div class="texto">
 				<h1>Clases de pilates</h1>
@@ -38,6 +62,28 @@
 				<img src="./images/yoga_girl_side.png" alt="yoga_pose">
 			</div>
 		</section>
+	</main> -->
+
+	<!-- NAVBAR de BOOTSTRAP -->
+	<main>
+		<section class="container">
+			<div class="row align-items-center justify-content-center justify-content-lg-between">
+				<div class="col-lg-6 col-md-8 col-sm-12">
+					<div class="text-info-cover">
+						<h1>¡Pilates para ti!</h1>
+						<h2>Find you <span>flow</span></h2>
+						<p class="textoIndex">Empieza con el cambio de darte la oportunidad de tomar pilates y yoga!! Solo tu decides tus limites, encuentra tu contrología
+						</p>
+						<a href="./Pages/contacto.html">¡Empieza ahora!</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-4 col-sm-12">
+					<div class="Yoga-girl-cover">
+						<img src="./images/yoga_girl_side_2.png" alt="yoga_girl">
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 
 	<footer class="piepagina">
@@ -47,7 +93,7 @@
 			</div>
 			<div class="elemento_piepagina">
 				<div class="social_piepagina">
-					<h2>Siguenos!</h2>
+					<p>Siguenos!</p>
 					<a href="https://www.facebook.com" target="_blank"><img src="./images/facebook-icon.png" alt="facebook_icon" class="social_logos"></a>
 					<a href="https://www.twitter.com" target="_blank"><img src="./images/twitter-icon.png" alt="twitter_logo" class="social_logos"></a>
 					<a href="https://www.instagram.com" target="_blank"><img src="./images/instagram_icon.png" alt="instagram_logo" class="social_logos"></a>
@@ -56,6 +102,9 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
 </body>
 </html>

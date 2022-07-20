@@ -45,6 +45,11 @@ html{
     transition: all 1s;
 }
 
+.container .Yoga-girl-cover img{
+    width: 500px;
+    height: 500px;
+}
+
 .nav-link:hover{
     transform: scale(1.5);
 }
@@ -108,10 +113,16 @@ html{
         font-size: 60px;
         font-weight: 700;
         color: #38424d;
+        margin-left: 100px;
     }
 
-    .card img{
+    .textoIndex_clases{
+        margin-left: 100px;
+    }
+
+    .container .card img{
         min-height: 200px;
+        max-height: 200px;
         box-shadow: 7px 13px 35px rgb(36, 36, 36);
     }
 
