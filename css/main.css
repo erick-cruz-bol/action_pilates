@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+body {
+  background-image: url("./images/background_color.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; }
+
+/* NAVBAR */
+.full_barnav {
+  background-color: #FFCCCC;
+  position: sticky; }
+
+.active {
+  border-bottom: solid 2px #000; }
+
+.navbar-brand {
+  transition: all 1s; }
+
+.logo_yoga {
+  width: 50px; }
+
+.navbar-brand:hover {
+  transform: scale(1.5); }
+
+.nav-link {
+  margin-left: 40px;
+  margin-right: 10px;
+  transition: all 1s; }
+
+.nav-link:hover {
+  transform: scale(1.5); }
+
+/* FOOTER */
+.piepagina {
+  width: 100%;
+  background-color: #FFCCCC; }
+
+.contenedor_piepagina {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  padding: 15px 0px; }
+
+.elemento_piepagina {
+  margin: auto; }
+
+.piepagina .contenedor_piepagina .elemento_piepagina .social_piepagina a {
+  display: inline-block;
+  line-height: 20px;
+  margin-right: 10 px; }
+
+.social_logos {
+  width: 30px;
+  transition: all 1s; }
+
+.social_logos:hover {
+  transform: scale(1.5); }
+
+.video_presentacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px; }
+
+.presentacion h2 {
+  font-size: 40px;
+  margin-bottom: 15px; }
+
+.presentacion p {
+  font-size: 20px;
+  margin-bottom: 20px; }
