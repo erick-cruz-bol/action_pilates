@@ -33,7 +33,7 @@ html {
 
 /* BODY */
 body {
-  background-image: url("./images/background_color.jpg");
+  background-image: url("../images/background_color.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -67,6 +67,57 @@ body {
   .social_logos:hover {
     transform: scale(1.5); }
 
+.container .Yoga-girl-cover img {
+  width: 500px;
+  height: 500px; }
+
+.nav-link:hover {
+  transform: scale(1.5); }
+
+.col-lg-6 img {
+  animation: move-up 4s infinite; }
+
+@keyframes move-up {
+  0% {
+    transform: translateY(15px); }
+  50% {
+    transform: translateY(0px); }
+  100% {
+    transform: translateY(15px); } }
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #38424d; }
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #585858;
+  margin-top: 20px; }
+
+.textoIndex {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+span {
+  display: contents;
+  color: blueviolet; }
+
+.text-info-cover a {
+  padding: 18px 40px;
+  border-radius: 30px;
+  font-size: 30px;
+  background-color: #9A9FFF;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 1s; }
+
+.text-info-cover a:hover {
+  transform: scale(2);
+  background-color: aquamarine; }
+
 .video_presentacion {
   display: flex;
   align-items: center;
@@ -80,3 +131,73 @@ body {
 .presentacion p {
   font-size: 20px;
   margin-bottom: 20px; }
+
+.titulo_clases {
+  font-size: 60px;
+  font-weight: 700;
+  color: #38424d;
+  margin-left: 100px; }
+
+.textoIndex_clases {
+  margin-left: 100px; }
+
+.container .card img {
+  min-height: 200px;
+  max-height: 200px;
+  box-shadow: 7px 13px 35px #242424; }
+
+.formulario {
+  width: 400px;
+  background-color: #FFCCCC;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 20px;
+  box-shadow: 7px 13px 35px #242424; }
+
+.formulario p {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 14px;
+  color: black; }
+
+.formulario__campos {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: solid 2px #9A9FFF; }
+
+.formulario__botones {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  margin: auto;
+  font-size: 20px;
+  background: #9A9FFF;
+  border: none;
+  color: white; }
+
+.carousel-item {
+  width: 500px;
+  height: 400px; }
+
+.carousel-inner {
+  justify-content: center; }
+
+.tabla_mercancia thead tr {
+  background-color: #FFCCCC;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold; }
+
+.visually-hidden {
+  color: black;
+  font-size: 30px; }
+
+.carousel-caption {
+  background-color: #9131ff;
+  border-radius: 30px; }
