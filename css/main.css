@@ -181,12 +181,15 @@ span {
   border: none;
   color: white; }
 
+.carousel {
+  top: 10%; }
+
 .carousel-item {
   width: 500px;
-  height: 400px; }
-
-.carousel-inner {
-  justify-content: center; }
+  height: 400px;
+  width: 40%;
+  border-radius: 30px;
+  left: 30%; }
 
 .tabla_mercancia thead tr {
   background-color: #FFCCCC;
